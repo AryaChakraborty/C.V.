@@ -1,0 +1,163 @@
+div.contacts{
+    /*float: right;*/
+    text-align:right;
+    background-color: #ffffff;
+    padding: 5px 20px 5px 20px;
+    border: 2px solid white;
+    border-width: 3px;
+    border-radius: 50px;
+    box-shadow: 4px 3px 20px #35353515;
+    width: 500px;
+}
+#cloud_one{
+    position:fixed;
+    right:200px;
+    top:50px;
+    z-index: -1;
+    opacity: 1.0;
+}
+#cloud_two{
+    position: fixed;
+    left: 200px;
+    top: 200px;
+    z-index: -1;
+    opacity: 0.6;
+}
+#cloud_three{
+    position: fixed;
+    right: 400px;
+    top: 350px;
+    z-index: -1;
+    opacity: 0.7;
+}
+img.contact_image{
+    height: 100px;
+    width:130px;
+    /*position: absolute;
+    right: 750px;*/
+    border-radius: 40px;
+    float: left;
+}
+img.skills_image{
+    height: 180px;
+    width: 180px;
+    float:right;
+    margin-top: 10px;
+}
+div.skills_div{
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.384);
+    border-radius: 30px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+img.myimage{
+    height: 300px;
+    width: 300px;
+    float:left;
+    margin-top: 100px;
+}
+div.education_div{
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.384);
+    border-radius: 30px;
+    padding: 20px;
+    position: absolute;
+    right: 20px;
+    text-align: right;
+}
+div.projects_div{
+    margin-top: 20px;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.384);
+    border-radius: 30px;
+    padding: 20px;
+    position: absolute;
+    right:20px;
+    text-align: right;
+}
+img.projects_image{
+    height: 200px;
+    width: 300px;
+    float:left;
+    margin-top: 10px;
+}
+div.links{
+    margin-left: 20px;
+    padding: 20px;
+}
+img.mountain{
+    position:fixed;
+    bottom: -20px;
+    left: 300px;;
+    z-index: -1;
+    opacity: 0.5;
+}
+div.other_socials{
+    margin-top: 200px;
+    margin-bottom: 221px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 200px;
+}
+.socials{
+    display: block;
+    height:50px;
+    width: 50px;
+    opacity: 0.5;
+}
+.socials:hover{
+    opacity: 1.0;
+}
+div.center{
+    text-align:center;
+    position: relative;
+    padding-top: 200px;
+}
+hr{
+    border: none;
+    height: 0px;
+    width: 4%;
+    border-style: dotted none none;
+    border-width: 5px;
+    border-color: #494949bd ;
+    margin: 70px auto;
+}
+body{
+    background-color: #82bde49f;
+    margin-left: 0;
+}
+h5{
+    margin-block-end: 0;
+    margin-block-start: 0;
+    font-family: 'Hi Melody', cursive;
+    font-size: 150%;
+}
+h3,h4{
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+h1,h3,h4{
+    font-family: 'Hi Melody', cursive;
+    font-size: 200%;
+}
+p,strong,a,td,li{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+*{
+    color: #323530;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(22, 119, 22);
+    font-weight: bolder;
+    text-decoration: none;
+}
+.intro{
+    width:70%;
+    margin: auto;
+}
